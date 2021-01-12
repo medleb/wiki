@@ -4,6 +4,10 @@
 [git](docs/git.md)
 [mac](docs/mac.md)
 [raspi](docs/raspi.md)
-[git](docs/git.md)
+[python]()
+  * [django](tutorial.md)
+  * [サンプル](api/index.md)
+  - - - -
+  * [サンプル](demo/sample.html)
 
 <!--[gimmick:themechooser](Choose theme)-->
