@@ -10,4 +10,4 @@ Attention: 個人用の技術メモサイトです。
 
 
 ## 興味がある分野
-Webアプリ/ Python/ Django/ Javacript/ vue.js/ AWS
+Webアプリ / Python / Django / Javacript / vue.js / AWS
