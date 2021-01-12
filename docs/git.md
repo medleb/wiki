@@ -1,5 +1,6 @@
 # Git
-Parallels Desktop14 on Ubuntu18.04
+
+Attention: 最終更新日 2021/01/12
 
 
 ## Git初期設定

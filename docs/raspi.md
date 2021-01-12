@@ -1,13 +1,6 @@
 # Rasberry Pi 3 Model B+
-- バージョン
-```
-$ lsb_release -a
-No LSB modules are available.
-Distributor ID:	Raspbian  
-Description:	Raspbian GNU/Linux 9.8 (stretch)  
-Release:	9.8  
-Codename:	stretch
-```  
+
+Attention: 最終更新日 2021/01/12
 
 
 ## IPアドレス固定
@@ -137,6 +130,7 @@ Power Management:off
 $wget +x Berryconda3-2.0.0-Linux-armv7l.sh
 ./Berryconda3-2.0.0-Linux-armv7l.sh
 ```
+
 
 ## Other
 - シャットダウン
