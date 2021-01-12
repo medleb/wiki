@@ -1,7 +1,7 @@
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "&copy; by medleb",
+    "additionalFooterText": "&copy; by medleb. ",
     "anchorCharacter": "#",
     "title": "備忘録"
 }
