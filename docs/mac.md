@@ -1,4 +1,7 @@
 # Mac
+
+Attention: 最終更新日 2021/01/12
+
 ```
 % sw_vers
 ProductName:	macOS
