@@ -1,6 +1,6 @@
 # 備忘録
 
-[Home](index.md)
+[Top](index.md)
 
 [git](docs/git.md)
 
@@ -12,5 +12,3 @@
 
   * [django](tutorial.md)
   * [サンプル](api/index.md)
-
-<!--[gimmick:themechooser](Choose theme)-->
