@@ -10,5 +10,5 @@
 
 [python]()
 
-  * [django](tutorial.md)
-  * [サンプル](api/index.md)
+  * [django](docs/python/django.md)
+  * [サンプル](docs/python/django.md)
