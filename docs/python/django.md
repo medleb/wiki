@@ -1,4 +1,4 @@
-# Git
+# Django
 
 Attention: 最終更新日 2021/01/20
 
