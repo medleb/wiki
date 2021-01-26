@@ -1,6 +1,6 @@
 # Django
 
-Attention: 最終更新日 2021/01/20
+Attention: 最終更新日 2021/01/26
 
 
 ## データベース　dumpdata loaddata
@@ -54,3 +54,23 @@ Attention: 最終更新日 2021/01/20
     }
   ]
   ```
+
+
+## DjangoのmodelからER図を作成する
+
+- インストール
+  
+  ```
+  $ brew install Graphviz
+
+  $ pip install pygraphviz
+  $ pip install django-extensions
+  ```
+
+- ER図作成
+
+  ```
+  $ python manage.py graph_models -a -o er.png
+  ```
+
+  他、Appごとだったり出力の拡張子を変えたりもできるっぽい。
