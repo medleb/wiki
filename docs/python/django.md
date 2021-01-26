@@ -73,4 +73,8 @@ Attention: 最終更新日 2021/01/26
   $ python manage.py graph_models -a -o er.png
   ```
 
+- 出力結果
+
+  ![出力結果](../img/er_sample.png)  
+
   他、Appごとだったり出力の拡張子を変えたりもできるっぽい。
