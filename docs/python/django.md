@@ -33,3 +33,24 @@ Attention: 最終更新日 2021/01/20
   ```
   $ python manage.py loaddata fixtures/post_test.json   
   ```
+
+- テストデータ
+  
+  https://www.json-generator.com/
+  
+  ```
+  [
+    '{{repeat(100, 10000)}}',
+    {
+      model: "management.post",
+      pk: '{{index()}}',
+      
+      fields: 
+        {
+          weight: '{{floating(60.00, 85.00, 2)}}',
+          date: '{{date(new Date(2019, 0, 0), new Date(2021, 1, 0),   "YYYY-MM-ddThh:mm:ssZ")}}'
+        }
+    
+    }
+  ]
+  ```
