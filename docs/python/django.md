@@ -49,7 +49,7 @@ Attention: 最終更新日 2021/01/29
   ```
 
 
-## DjangoのmodelからER図を作成する
+## modelからER図を作成する
 
 - インストール
   
@@ -129,3 +129,42 @@ Attention: 最終更新日 2021/01/29
 ## get, get_queryset, get_context_dataについて 
 
   - 参考サイト https://teratail.com/questions/118626
+
+## url一覧を取得する
+- インストール
+
+```
+$ pip install django-extensions
+```
+
+- 出力
+
+```
+$ python manage.py show_urls
+```
+
+
+- 出力結果
+
+```
+/       django.views.generic.base.TemplateView  home
+/__debug__/history_refresh/     debug_toolbar.panels.history.views.history_refresh     djdt:history_refresh
+/__debug__/history_sidebar/     debug_toolbar.panels.history.views.history_sidebar     djdt:history_sidebar
+/__debug__/render_panel/        debug_toolbar.views.render_panel        djdt:render_panel
+/__debug__/sql_explain/ debug_toolbar.panels.sql.views.sql_explain      djdt:sql_explain
+/__debug__/sql_profile/ debug_toolbar.panels.sql.views.sql_profile      djdt:sql_profile
+/__debug__/sql_select/  debug_toolbar.panels.sql.views.sql_select       djdt:sql_select
+/__debug__/template_source/     debug_toolbar.panels.templates.views.template_source   djdt:template_source
+/accounts/confirm-email/        allauth.account.views.EmailVerificationSentViewaccount_email_verification_sent
+/accounts/confirm-email/<key>/  allauth.account.views.ConfirmEmailView  account_confirm_email
+/accounts/email/        allauth.account.views.EmailView account_email
+/accounts/inactive/     allauth.account.views.AccountInactiveView       account_inactive
+/accounts/login/        allauth.account.views.LoginView account_login
+```
+
+- オプションで出力形式を変更できる
+
+オプションで出力形式を変更できる
+```
+$ python manage.py show_urls --format table
+```
