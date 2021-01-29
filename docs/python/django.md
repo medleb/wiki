@@ -165,7 +165,6 @@ Attention: 最終更新日 2021/01/29
 
 - オプションで出力形式を変更できる
 
-  オプションで出力形式を変更できる
   ```
   $ python manage.py show_urls --format table
   ```
