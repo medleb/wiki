@@ -128,7 +128,7 @@ Attention: 最終更新日 2021/01/29
 
 ## get, get_queryset, get_context_dataについて 
 
-  - 参考サイト https://teratail.com/questions/118626
+- 参考サイト https://teratail.com/questions/118626
 
 ## url一覧を取得する
 
