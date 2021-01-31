@@ -76,7 +76,7 @@ Attention: 最終更新日 2021/01/29
 
 - 以下のような構成なっているとして
 
-  - フォルダ構成
+  フォルダ構成
 
   ```
   .
@@ -91,7 +91,7 @@ Attention: 最終更新日 2021/01/29
   │       ├── index.html
   ```
 
-  - config/urls.py (project)
+  config/urls.py (project)
 
   ```
   urlpatterns = [
@@ -99,7 +99,7 @@ Attention: 最終更新日 2021/01/29
   ]
   ```
 
-  - blog/urls.py (app)
+  blog/urls.py (app)
 
   ```
   app_name = blog
