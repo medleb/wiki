@@ -72,12 +72,25 @@ Attention: 最終更新日 2021/01/29
 
   他、Appごとだったり出力の拡張子を変えたりもできるっぽい。
 
-## reverse, redirect, render, reverse_lazy について
+## reverse, reverse_lazy, render, redirectの違い
 
-- reverse
-  
-  URLへの逆変換　戻り値は文字列
-  
+- 以下のような構成なっているとして
+
+  - ファイル構成
+
+  ```
+  .
+  ├── config (project)
+  │   ├── urls.py
+  │
+  ├── manager (app)
+  │   ├── urls.py
+  │
+  ├── templates
+  │   ├── blog
+  │       ├── index.html
+  ```
+
   - config/urls.py (project)
 
   ```
@@ -89,11 +102,19 @@ Attention: 最終更新日 2021/01/29
   - blog/urls.py (app)
 
   ```
+  app_name = blog
+
   urlpatterns = [
       path('index/',  IndexView.as_view(), name='index'),
   ]
   ```
 
+- reverse
+
+  __reverse(viewname, urlconf=None, args=None, kwargs=None, current_app=None)__
+  
+  URLの逆引き　戻り値は文字列
+  
   ```
   print(reverse('blog:index'))
   
@@ -106,21 +127,38 @@ Attention: 最終更新日 2021/01/29
 
 - reverse_lazy
 
-  reverseの遅延評価
+  __reverse_lazy(viewname, urlconf=None, args=None, kwargs=None, current_app=None)__
 
-  ```
+  URLの逆引き　reverseの遅延評価バージョン
 
-  ```
+  プロジェクトのURLConfがロードされる前にURL逆引きを使用する必要がある場合に利用
 
 - render
 
+  __render(request、template_name、context = None、content_type = None、status = None、using = None)__
+
+  指定したテンプレートとコンテキストを組み合わせてレンダリングされたオブジェクトを返す
+
+  ```
+  return render(request, 'blog/index.html', {'foo:' 'bar'})
+  ```
+
 - redirect
 
-- 参考URL https://teratail.com/questions/90799 , https://teratail.com/questions/50683
+  __redirect（to、* args、permanent = False、**kwargs)__
 
-## urls.pyのnameとapp_name について
+  URLに遷移させる
 
-- 参考サイト https://qiita.com/sr2460/items/11a1129975913ed584d3
+  ```
+  return redirect('blog:index')
+
+  # 完全なURLを渡すこともできる
+  return redirect('https://example.com/') 
+  ```
+
+- urls.pyのnameとapp_name について
+
+  参考サイト https://qiita.com/sr2460/items/11a1129975913ed584d3
 
 ## カスタムマネージャーについて
 
