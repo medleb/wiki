@@ -1,12 +1,12 @@
 # Mac
 
-Attention: 最終更新日 2021/01/12
+Attention: 最終更新日 2021/05/05
 
 ```
-% sw_vers
+❯ sw_vers
 ProductName:	macOS
-ProductVersion:	11.1
-BuildVersion:	20C69
+ProductVersion:	11.3.1
+BuildVersion:	20E241
 ```
 
 ## Homebrewインストール
@@ -15,8 +15,8 @@ BuildVersion:	20C69
 ## 環境設定
 
 - インターネットアカウント
-  1. iCloud+google(3アカウント:"メール"にチェック Mainのみ"メール"+"カレンダー"にチェック)+yahoo(1アカウント:"メール"のみチェック)
-  2. iCloud(iCloudDrive,"写真","連絡先","リマインダー","メモ","acを探す","ホーム"にチェック)
+  1. iCloud+google(2アカウント:"メール"にチェック Mainのみ"メール"+"カレンダー"にチェック)+yahoo(1アカウント:"メール"のみチェック)
+  2. iCloud(iCloudDrive,"写真","連絡先","リマインダー","メモ","Macを探す","ホーム"にチェック)
   3. iCloud Drive("メール.app","Dropbox.app","システム環境設定.app"にチェック)
 
 - マウス
@@ -28,7 +28,7 @@ BuildVersion:	20C69
 
 - キーボード
   1. "Touch Barに表示する項目"で"F1,F2などのキー"を選択
-  2. "装飾キー"→"Caps Lock=>Command, Command=>CapsLock"に変更
+  2. "装飾キー"→"Caps Lock=>Control, Control=>CapsLock"に変更
 
 - セキュリティとプライバシ
   1. 一般→"Apple Watchを使ってアプリケーションとこのMacのロックを解除"にチェック
@@ -48,6 +48,11 @@ BuildVersion:	20C69
 
 - 環境設定→詳細
   1. "すべてのファイル名拡張子を表示"にチェック
+
+- 表示
+  1. タブバーを表示
+  2. パスバーを表示
+  3. ステータスバーを表示
 
 
 ## アプリケーション
@@ -72,7 +77,7 @@ eval "$(starship init zsh)"
 % source ~/.zshrc
 ```
 
-- 設定ファイル作成
-```
-% touch ~/.config/starship.toml
-```
+
+## AppStore
+
+Xcodeインストール
