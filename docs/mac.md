@@ -80,4 +80,4 @@ eval "$(starship init zsh)"
 
 ## AppStore
 
-Xcodeインストール
+- Xcodeインストール
