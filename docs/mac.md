@@ -16,8 +16,8 @@ BuildVersion:	21F79
 
 - インターネットアカウント（途中）
   1. iCloud+google(2アカウント:"メール"にチェック Mainのみ"メール"+"カレンダー"にチェック)
-  2. iCloud(iCloudDrive,"写真","連絡先","リマインダー","メモ","Macを探す","ホーム"にチェック)
-  3. iCloud Drive("メール.app","Dropbox.app","システム環境設定.app"にチェック)
+  2. iCloud(iCloudDrive,"写真","メール","連絡先","リマインダー","Safari","メモ","Macを探す","ホーム"にチェック)
+  3. iCloud Drive(全てチェック)
 
 - マウス
   1. "スクロールの方向:ナチュラル"以外全てにチェック
