@@ -1,12 +1,12 @@
 # Mac
 
-Attention: 最終更新日 2021/05/05
+Attention: 最終更新日 2022/06/19
 
 ```
 ❯ sw_vers
 ProductName:	macOS
-ProductVersion:	11.3.1
-BuildVersion:	20E241
+ProductVersion:	12.4
+BuildVersion:	21F79
 ```
 
 ## Homebrewインストール
@@ -14,17 +14,17 @@ BuildVersion:	20E241
 
 ## 環境設定
 
-- インターネットアカウント
-  1. iCloud+google(2アカウント:"メール"にチェック Mainのみ"メール"+"カレンダー"にチェック)+yahoo(1アカウント:"メール"のみチェック)
+- インターネットアカウント（途中）
+  1. iCloud+google(2アカウント:"メール"にチェック Mainのみ"メール"+"カレンダー"にチェック)
   2. iCloud(iCloudDrive,"写真","連絡先","リマインダー","メモ","Macを探す","ホーム"にチェック)
   3. iCloud Drive("メール.app","Dropbox.app","システム環境設定.app"にチェック)
 
 - マウス
-  1. "スクロールの方向"以外全てにチェック
+  1. "スクロールの方向:ナチュラル"以外全てにチェック
   2. "軌跡の速さ"をMAXにする
 
 - Dock
-  1. "Dockを自動的に表示/非表示"のチェックを外す
+  1. "Dockを自動的に表示/非表示"にチェック
 
 - キーボード
   1. "Touch Barに表示する項目"で"F1,F2などのキー"を選択
@@ -40,6 +40,8 @@ BuildVersion:	20E241
 - アクセシビリティ
   1. ポインタコントロール→トラックパッドオプション→"ドラッグを有効にする(ドラッグロックあり)"にチェック
 
+- コンピューター名
+- 共有→"コンピューター名："を変更
 
 ## Finder
 
@@ -53,29 +55,6 @@ BuildVersion:	20E241
   1. タブバーを表示
   2. パスバーを表示
   3. ステータスバーを表示
-
-
-## アプリケーション
-1. avast( https://www.avast.co.jp/free-mac-security )
-2. Parallels Desktop 14 for Mac ( メールからダウンロード&アクティベーション ) *アップグレードしないとMacの最新版で起動できない
-
-
-## ターミナルカスタマイズ
-
-- Starshipインストール
-```
-% brew install startship
-```
-
-- ~/.zshrcに追記
-```
-eval "$(starship init zsh)"
-```
-
-- 設定反映
-```
-% source ~/.zshrc
-```
 
 
 ## AppStore
