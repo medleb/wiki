@@ -10,7 +10,17 @@ BuildVersion:	21F79
 ```
 
 ## Homebrewインストール
+
 1. 公式サイト参照( https://brew.sh/index_ja )
+2. パッケージ
+(Casks)
+```
+1password		blender			kindle
+android-studio		cheatsheet		parallels
+appcleaner		docker			unity-hub
+autodesk-fusion360	google-chrome		visual-studio-code
+avast-security		google-japanese-ime
+```
 
 ## 環境設定
 
